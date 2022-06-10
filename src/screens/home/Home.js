@@ -63,7 +63,7 @@ function Home(){
 
     return (
       <div>
-        <Header btnType2="loginbtn" variant="contained" buttonName2="LOGIN" btnType="hiddenbtn" buttonName="hidden" btnType3="logoutbtn" buttonName3="LOGOUT" />
+        <Header />
         <span className="heading">Upcoming Movies</span>
         <UpcomingMoviesList moviesData={state.data} />
 

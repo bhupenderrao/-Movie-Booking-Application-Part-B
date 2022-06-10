@@ -9,17 +9,33 @@
   animation: rotateAnim 8s infinite linear normal;
 }
 
-button{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-width: 100px;
-  font-weight: bold;
+.login-button {
+  float: right;
 }
 
-#btn3{
-  background-color: #3f51b5;
+.bookshow-button {
+  float: right;
+  margin-right: 8px;
 }
+
+.red {
+  color: red;
+}
+
+.dispNone {
+  display: none;
+}
+
+.dispBlock {
+  display: block;
+}
+
+.tabs {
+  margin-bottom: 20px;
+}
+
+
+
 
 @keyframes rotateAnim {
   from {
@@ -29,3 +45,4 @@ button{
     transform: rotateY(360deg);
   }
 }
+

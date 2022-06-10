@@ -43,7 +43,7 @@ export default function ReleasedMoviesList(props) {
 
             <ImageListItem key={item.title} className="leftListItem">
 
-              <Link to={`/details/movie:` + item.id} state={{ movie: item }}>
+              <Link to={"/details"} state={{ movie: item }}>
                 <img className="image" src={item.poster_url} alt={item.title} />
               </Link>
               <ImageListItemBar

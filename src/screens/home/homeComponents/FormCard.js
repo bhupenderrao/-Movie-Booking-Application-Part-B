@@ -62,7 +62,6 @@ export default function FormCard(props) {
           <Input
             onChange={(e) => {
               userSelection.name = e.target.value;
-              console.log(userSelection.name);
             }}
             id="my-input"
             aria-describedby="my-helper-text"

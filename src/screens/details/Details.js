@@ -25,7 +25,7 @@ function Details() {
   console.log(data);
   return (
     <div className="mainContainer">
-      <Header btnType="bookshowbtn" variant="contained" buttonName="BOOK SHOW" btnType2="loginbtn" buttonName2="LOGIN" btnType3="logoutbtn" buttonName3="LOGOUT" />
+      <Header showBookShowButton="true" id={data.id} />
       <div className="backbtn">
         <Link to="/">
           <Typography>{"<"} Back to Home</Typography>
